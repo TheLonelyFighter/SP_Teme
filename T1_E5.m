@@ -1,6 +1,6 @@
 F=50;
-t=0:0.001:0.2;
-s=2*sin(2*pi*F*t);
+t=0:0.001:0.2;     %cu cat pasul lui t este mai mic, cu atat reprezentarea grafica este mai exacta
+s=2*sin(2*pi*F*t);   
 plot(t,s)
 grid
 xlabel('Timp [s]')

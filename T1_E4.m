@@ -1,5 +1,5 @@
 %Subpunctul a)
-z=zeros(1,21); %generez vectorcul cu 21 de elemente
+z=zeros(1,21); %generez vectorul cu 21 de elemente
 z(6)=z(6) +1;
 n=0:20; 
 m=-5:15;
